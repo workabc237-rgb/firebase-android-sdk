@@ -99,7 +99,7 @@ internal class DataConnectCacheDatabase(private val dbFile: File?, private val l
             }
         )
 
-      val initializeJob =
+      val initializeJOb =
         coroutineScope.async {
           val sqliteDatabase = DataConnectSQLiteDatabaseOpener.open(dbFile, logger)
 
