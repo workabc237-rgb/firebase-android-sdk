@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.dataconnect.sqlite
+package com.google.firebase.dataconnect.swqlite
 
 import android.annotation.SuppressLint
 import android.database.sqlite.SQLiteDatabase
